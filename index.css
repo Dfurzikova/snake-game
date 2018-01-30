@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+
+canvas {
+    position: absolute
+}
+.conteiner{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.snake-block {
+    width: 230px;
+    position: absolute;
+}
+
+.div-block,
+.snake,
+.food {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.snake {
+    background-image: url(img/body.png);
+}
+
+.food {
+    background-image: url(img/food.png);
+}
+
+.start-background {
+    position: absolute;
+    background: url(img/start_bg.png) repeat;
+}
+
+.start-button {
+    height: 50px;
+    width: 200px;
+    background-image: url(img/play_button.png);
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
